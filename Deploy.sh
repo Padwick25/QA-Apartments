@@ -15,7 +15,7 @@ mkdir Build
 echo moving files into build
 mv ~/target ~/Build
 mv ~/frontend ~/Build
-mv ~/Deploy.sh ~/Build
+#movev deploy.sh?
 cd ~/Build/target
 echo Building backend image
 docker build -t backend .
