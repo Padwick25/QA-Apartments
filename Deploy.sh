@@ -2,7 +2,7 @@ echo ---------------
 echo START OF SCRIPT
 echo ---------------
 echo
-cd ~/
+cd ~
 if [ -d "Build" ]; then
   echo deleting old build files
   rm -r ~/Build
